@@ -1,0 +1,23 @@
+{
+  "name": "update-tasks-trello",
+  "version": "1.0.0",
+  "description": "Atualiza tasks do trello de acordo com uma regra específica",
+  "type": "module",
+  "main": "./cli.js",
+  "bin": {
+    "update-tasks-trello": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "cli": "node ./cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LeandroFChaves",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.6"
+  }
+}
